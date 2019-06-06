@@ -1,0 +1,98 @@
+body{
+    background-image: url("../images/Savin-NY-Website-Background-Web\ 2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: scroll;
+}
+
+.logo {
+    padding-left: 40px;
+    
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .initialText {
+     
+      font-size: 20px;
+      color: black;
+      letter-spacing: 1.5px;
+  }
+  
+  .startButton {
+    margin-top: 100px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .timerText {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .questionText {
+    font-size: 30px;
+    color: black;
+  }
+  
+  .correctText, .wrongText, .timeOutText, .finishedText {
+      font-size: 50px;
+      color: black;
+  }
+  
+  .summaryCorrect, .summaryWrong, .summaryUnanswered {
+    font-size: 20px;
+    color: black;
+  }
+  
+  #timer {
+      color: blue;
+      font-size: 40px;
+      font-weight: bold;
+  }
+  
+  .answer:hover {
+    background: lightblue;
+    
+  }
+  
+  .answer {
+    height: 45px;
+    width: 250px;
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right:auto;
+    
+    
+  }
+  
+  .imgWrong, .imgCorrect {
+    margin-top: 40px;
+    width: 250px;
+    margin-left: 80px;
+  }
+  
+  .questionText {
+    margin-bottom: 50px;
+  }
+  
+  .resetButton {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+  }
+  
+  .summaryCorrect {
+    margin-top: 40px;
+  }
+  
+  .summaryCorrect, .summaryWrong, .summaryUnanswered {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
