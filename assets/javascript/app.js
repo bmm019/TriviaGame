@@ -172,13 +172,13 @@ $(document).ready(function() {
 	}
 
 	// When the start button is clicked:
-	$("body").on("click", ".startButton", function(event){ 
+	$("body").on("click", ".startButton", function(){ 
 		generateHTML();
 		timer();
 	});
 
 	// When an answer is clicked:
-	$("body").on("click", ".answer", function(event){
+	$("body").on("click", ".answer", function(){
 		selectedAnswer = $(this).attr("isCorrect");
 		console.log(selectedAnswer);
 
@@ -193,7 +193,7 @@ $(document).ready(function() {
 	}); 
 
 	// When the Play Again button is clicked:
-	$("body").on("click", ".resetButton", function(event){
+	$("body").on("click", ".resetButton", function(){
 		resetGame();
 	}); 
 
